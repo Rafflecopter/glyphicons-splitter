@@ -16,6 +16,7 @@ on a Mac; your mileage may vary on other operating systems.
 
 Install the necessary Python dependencies:
 
+    npm install
     pip install -r requirements.txt
 
 This will install lxml, cssselect, cairosvg. On my computer (running OS X
