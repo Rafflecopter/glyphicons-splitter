@@ -1,0 +1,25 @@
+{
+  "name": "glyphicons-splitter",
+  "version": "1.0.0",
+  "description": "I needed individual [Glyphicons][] in vector format for an upcoming presentation, so I built a little toolchain with Python, PhantomJS and Make to extract individual icons from the `glyphicons.svg` file you get when you [buy the ‘PRO’ package][full-glyphicons].",
+  "main": "get_bounding_boxes.js",
+  "dependencies": {
+    "webpage": "^0.3.0"
+  },
+  "devDependencies": {
+    "webpage": "^0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacharyvoase/glyphicons-splitter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zacharyvoase/glyphicons-splitter/issues"
+  },
+  "homepage": "https://github.com/zacharyvoase/glyphicons-splitter#readme"
+}

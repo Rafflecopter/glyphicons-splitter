@@ -68,7 +68,7 @@ def main():
         bbox = bounding_boxes[glyphicon.attrib['id']]
         svg_root = get_root_clone()
         del svg_root.attrib['viewBox']
-        del svg_root.attrib['enable-background']
+        del svg_root.attrib['style']
         svg_root.attrib['width'] = repr(bbox['width'])
         svg_root.attrib['height'] = repr(bbox['height'])
         glyphicon.attrib['transform'] = 'translate(-%r,-%r)' % (bbox['x'], bbox['y'])

@@ -18,10 +18,8 @@ Install the necessary Python dependencies:
 
     pip install -r requirements.txt
 
-This will install lxml, cssselect and PyCairo. On my computer (running OS X
-Mountain Lion), I actually installed `py2cairo` from Homebrew, and pointed to
-it from the `PYTHONPATH` variable (see the `Makefile`). The `cairosvg` binary
-from pycairo must be on your `PATH` for this to work, too.
+This will install lxml, cssselect, cairosvg. On my computer (running OS X
+Mountain Lion).
 
 You then need to take the `glyphicons.svg` file from
 `glyphicons_pro/glyphicons/svg` (which you can download when you buy it) and

@@ -6,3 +6,4 @@ extracted
 bounding_boxes.json
 glyphicons.svg
 glyphicons@*.svg
+node_modules
